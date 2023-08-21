@@ -1,0 +1,4 @@
+T1218.005 - Signed Binary Proxy Execution: Mshta on events which are detected by the Local system
+and when the event(s) were detected by one or more of Microsoft Windows Security Event Log
+and when the event matches "Process Name" ILIKE '%mshta%' AQL filter query
+and when the event matches "Process Command Line" ILIKE '%script:http%' OR "Process Command Line" ILIKE '%vbscript%' OR "Process Command Line" ILIKE '%.hta%' OR "Process Command Line" ILIKE '%.sct%' AQL filter query
